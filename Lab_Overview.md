@@ -17,8 +17,8 @@ Validation of the system’s effectiveness: They can’t only measure success ba
 ⦁	What is the target variable and what type (reg or class) of solution are they developing? What software they should invest in and how it suits each district. They are developing a regression solution.
 
 ⦁	How would they know the solution is working (business metric)? 
-Improved student math scores
-Reduced cost of software long-term
+Improved student math scores,
+Reduced cost of software long-term,
 Teacher satisfaction
 
 
