@@ -14,7 +14,7 @@ Read through the case study and then discuss the problem as a group then address
 Making sure all districts are equally represented so one group does not have too strong of an influence,
 Validation of the system’s effectiveness: They can’t only measure success based on how accurate the recommendations are. They have to look at outcomes like student performance, long-term cost savings, and teacher satisfaction, Small data set with inconsistencies/noise and lack of funding
 
-⦁	What is the target variable and what type (reg or class) of solution are they developing? What software they should invest in and how it suits each district. They are developing a regression solution.
+⦁	What is the target variable and what type (reg or class) of solution are they developing? What software they should invest in and how it suits each district. They are developing a classification solution.
 
 ⦁	How would they know the solution is working (business metric)? 
 Improved student math scores,
