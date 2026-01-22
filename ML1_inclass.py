@@ -29,8 +29,10 @@ iris = data('iris')
 iris.head()
 
 # %%
-# What mental models can we see from these data sets?
-# What data science questions can we ask?
+# What mental models can we see from these data sets? 
+# Iris species can be differentiated by their sepal and petal lengths and widths. 
+# What data science questions can we ask? 
+# Can we predict the species of an iris flower based on its sepal and petal dimensions?
 
 # %%
 """
@@ -93,10 +95,17 @@ Mild disclaimer
 # understand exactly what the model is doing quite yet.
 # For now, ask yourself:
 
-# 1. What is the purpose of data splitting?
-# 2. What can we learn from data testing/validation?
-# 3. How do we know if a model is working?
-# 4. How could we find the model error?
+# 1. What is the purpose of data splitting? The purpose of data splitting is to evaluate the performance of a machine learning model on unseen data. By dividing the dataset into training and testing sets, we can train the model on one portion of the data and then test its accuracy and generalization on another portion that it has not seen before. This helps to prevent overfitting and provides a more realistic assessment of how the model will perform in real-world scenarios.
+# 2. What can we learn from data testing/validation? We can learn several important things from data testing and validation:
+#    - Model Performance: Testing allows us to evaluate how well our model performs on unseen data, providing insights into its accuracy, precision, recall, and other relevant metrics.
+#    - Generalization: Validation helps us understand how well our model generalizes to new, unseen data, which is crucial for real-world applications.
+#    - Hyperparameter Tuning: Validation sets can be used to fine-tune model hyperparameters, helping to optimize performance without overfitting.
+#    - Error Analysis: By analyzing the errors made during testing, we can identify patterns and areas where the model may need improvement.
+# 3. How do we know if a model is working? We know the model is working by evaluating its performance on a separate test dataset that was not used during training. Key indicators of a working model include:
+#    - High accuracy or other relevant performance metrics (e.g., precision, recall, F1-score) on the test data.
+#    - Consistent performance across different subsets of the data.
+#    - The model's ability to generalize well to new, unseen data without overf
+# 4. How could we find the model error? We can find the model error by comparing the predicted outputs of the model to the actual outputs in the test dataset.
 
 # If you want, try changing the size of the test data
 # or the number of n_neighbors and see what changes!
